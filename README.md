@@ -1,2 +1,2 @@
 # MCFP-linear-programming-model
-The linear programming model of Maximum Concurrent Flow Problem (MCFP)
+The linear programming model of Bounded Path Maximum Concurrent Flow Problem (MCFP)
