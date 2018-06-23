@@ -1,0 +1,76 @@
+Problem:    BPMCF
+Rows:       35
+Columns:    17 (8 integer, 8 binary)
+Non-zeros:  56
+Status:     INTEGER OPTIMAL
+Objective:  LANBDA = 0.2857142857 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 LANBDA               0.285714                             
+     2 c1[k1]                      0            -0               
+     3 c1[k2]                      0            -0               
+     4 c2[k1]                     10                          35 
+     5 c2[k2]                1.42857                           5 
+     6 c3[v1,v2]                   0                           5 
+     7 c3[v1,v4]                   0                           5 
+     8 c3[v2,v1]                   0                           5 
+     9 c3[v2,v3]                   0                           5 
+    10 c3[v2,v6]                   0                           5 
+    11 c3[v3,v2]                   0                           5 
+    12 c3[v3,v5]                   5                           5 
+    13 c3[v3,v6]                   5                           5 
+    14 c3[v4,v1]             1.42857                           5 
+    15 c3[v4,v5]                   0                           5 
+    16 c3[v5,v3]                   0                           5 
+    17 c3[v5,v4]                   0                           5 
+    18 c3[v5,v6]                   0                           5 
+    19 c3[v6,v2]                   0                           5 
+    20 c3[v6,v3]                   0                           5 
+    21 c3[v6,v5]                   5                           5 
+    22 c4[v1]                      1                           1 
+    23 c4[v2]                      0                           1 
+    24 c4[v3]                      2                           3 
+    25 c4[v4]                      1                           1 
+    26 c4[v5]                      2                           3 
+    27 c4[v6]                      1                           2 
+    28 c5[k1,p1]           -0.857143                          -0 
+    29 c5[k1,p2]           -0.857143                          -0 
+    30 c5[k1,p3]                   0                          -0 
+    31 c5[k1,p4]                   0                          -0 
+    32 c5[k2,p1]           -0.714286                          -0 
+    33 c5[k2,p2]                   0                          -0 
+    34 c5[k2,p3]                   0                          -0 
+    35 c5[k2,p4]                   0                          -0 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[k1,p1]             0.142857             0             1 
+     2 x[k1,p2]             0.142857             0             1 
+     3 x[k1,p3]                    0             0             1 
+     4 x[k1,p4]                    0             0             1 
+     5 x[k2,p1]             0.285714             0             1 
+     6 x[k2,p2]                    0             0             1 
+     7 x[k2,p3]                    0             0             1 
+     8 x[k2,p4]                    0             0             1 
+     9 y[k1,p1]     *              1             0             1 
+    10 y[k1,p2]     *              1             0             1 
+    11 y[k1,p3]     *              0             0             1 
+    12 y[k1,p4]     *              0             0             1 
+    13 y[k2,p1]     *              1             0             1 
+    14 y[k2,p2]     *              0             0             1 
+    15 y[k2,p3]     *              0             0             1 
+    16 y[k2,p4]     *              0             0             1 
+    17 lambda               0.285714             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
